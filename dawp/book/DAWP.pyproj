@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2c271872-69d0-48a3-9b93-8ddaa3312370}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>A_pyt\a_first_program.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="F_DAWP_Chs_12_13.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="02_mbv\BSM_value_plot.py" />
+    <Compile Include="02_mbv\inner_value_plot.py" />
+    <Compile Include="03_stf\bsm_functions.py" />
+    <Compile Include="03_stf\BSM_imp_vol.py" />
+    <Compile Include="03_stf\DAX_imp_vol.py" />
+    <Compile Include="03_stf\DAX_returns.py" />
+    <Compile Include="03_stf\ES50_imp_vol.py" />
+    <Compile Include="03_stf\EURIBOR_analysis.py" />
+    <Compile Include="03_stf\GBM_returns.py" />
+    <Compile Include="05_com\BSM_call_greeks.py" />
+    <Compile Include="05_com\BSM_option_valuation.py" />
+    <Compile Include="05_com\CRR_option_valuation.py" />
+    <Compile Include="06_fou\BSM_option_valuation_FOU.py" />
+    <Compile Include="06_fou\call_convolution.py" />
+    <Compile Include="06_fou\call_convolution_general.py" />
+    <Compile Include="06_fou\call_fft_pricing.py" />
+    <Compile Include="06_fou\call_fft_speed.py" />
+    <Compile Include="06_fou\convolution.py" />
+    <Compile Include="06_fou\Fourier_series.py" />
+    <Compile Include="06_fou\parameters.py" />
+    <Compile Include="06_fou\roots_of_unity.py" />
+    <Compile Include="07_amo\CRR_american_options.py" />
+    <Compile Include="07_amo\LSM_primal_dual_table.py" />
+    <Compile Include="07_amo\LSM_primal_dual_valuation.py" />
+    <Compile Include="07_amo\LSM_primal_valuation.py" />
+    <Compile Include="08_m76\M76_calibration_FFT.py" />
+    <Compile Include="08_m76\M76_calibration_single.py" />
+    <Compile Include="08_m76\M76_valuation_FFT.py" />
+    <Compile Include="08_m76\M76_valuation_INT.py" />
+    <Compile Include="08_m76\M76_valuation_MCS.py" />
+    <Compile Include="09_gmm\BCC_option_valuation.py" />
+    <Compile Include="09_gmm\BSM_option_valuation.py" />
+    <Compile Include="09_gmm\CIR_zcb_valuation.py" />
+    <Compile Include="10_mcs\CIR_zcb_simulation.py" />
+    <Compile Include="10_mcs\CIR_zcb_valuation_gen.py" />
+    <Compile Include="10_mcs\H93_european_mcs.py" />
+    <Compile Include="10_mcs\RNG.py" />
+    <Compile Include="10_mcs\SGEN.py" />
+    <Compile Include="10_mcs\SVSI_american_mcs.py" />
+    <Compile Include="10_mcs\SVSI_american_mcs_10_3.py" />
+    <Compile Include="10_mcs\SVSI_american_mcs_10_4.py" />
+    <Compile Include="10_mcs\SVSI_american_mcs_10_5.py" />
+    <Compile Include="10_mcs\SVSI_american_speed.py" />
+    <Compile Include="11_cal\BCC97_calibration_full.py" />
+    <Compile Include="11_cal\BCC97_calibration_iv.py" />
+    <Compile Include="11_cal\BCC97_calibration_short.py" />
+    <Compile Include="11_cal\CIR_calibration.py" />
+    <Compile Include="11_cal\H93_calibration.py" />
+    <Compile Include="11_cal\plot_implied_volatilities.py" />
+    <Compile Include="12_val\BCC97_american_valuation.py" />
+    <Compile Include="12_val\BCC97_simulation.py" />
+    <Compile Include="12_val\BCC97_valuation_comparison.py" />
+    <Compile Include="13_dyh\BCC97_lsm_hedging_algorithm.py" />
+    <Compile Include="13_dyh\BCC97_lsm_hedging_histogram.py" />
+    <Compile Include="13_dyh\BSM_lsm_hedging_algorithm.py" />
+    <Compile Include="13_dyh\BSM_lsm_hedging_histogram.py" />
+    <Compile Include="A_pyt\a_first_program.py" />
+    <Compile Include="A_pyt\b_BSM_valuation.py" />
+    <Compile Include="A_pyt\c_parameters.py" />
+    <Compile Include="A_pyt\d_CRR1979_loop.py" />
+    <Compile Include="A_pyt\e_CRR1979_vectorized.py" />
+    <Compile Include="A_pyt\f_CRR1979_fft.py" />
+    <Compile Include="A_pyt\g_MCS.py" />
+    <Compile Include="A_pyt\h_REG.py" />
+    <Compile Include="A_pyt\i_SPLINE.py" />
+    <Compile Include="A_pyt\j_OPT.py" />
+    <Compile Include="A_pyt\k_INT.py" />
+    <Compile Include="A_pyt\l_CLASS.py" />
+    <Compile Include="A_pyt\m_Excel_read.py" />
+    <Compile Include="A_pyt\numpy_comp.py" />
+    <Compile Include="A_pyt\n_pandas.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="02_mbv" />
+    <Folder Include="03_stf" />
+    <Folder Include="05_com" />
+    <Folder Include="06_fou" />
+    <Folder Include="07_amo" />
+    <Folder Include="08_m76" />
+    <Folder Include="09_gmm" />
+    <Folder Include="10_mcs" />
+    <Folder Include="11_cal" />
+    <Folder Include="12_val" />
+    <Folder Include="13_dyh" />
+    <Folder Include="A_pyt" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
